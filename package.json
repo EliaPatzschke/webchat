@@ -1,0 +1,16 @@
+{
+    "name": "webchat",
+    "description": "simple web-based chat written in html/js",
+    "authors": "EliaPatzschke",
+    "version": "0.1.0",
+    "main": ".\\server\\app.js",
+    "dependencies": {
+        "gulp": "4.0.2",
+        "gulp-scss": "1.4.0",
+        "jquery": "3.4.1",
+        "express": "4.17.1"
+    },
+    "scripts": {
+        "start": "node .\\server\\app.js"
+    }
+}
