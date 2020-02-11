@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WebChat</title>
+        <script src="./jquery.min.js"></script>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <!-- TODO: cleanup ids -->
+    <body>
+        <div class="header">
+            <div class="header-element">
+                <input type="button" value="Stop Refreshing" id="stop">
+                <input type="button" value="Start Refreshing" id="start">    
+            </div>
+            <div class="header-element">
+                <label for="username">Username:</label>
+                <input type="text" name="username" id="username">
+            </div>
+        </div>
+        <div class="main">
+            <ul id="output-ul"></ul>
+        </div>
+        <div class="footer">
+            <label for="message">Message:</label>
+            <input type="text" name="message" id="message">
+            <input type="button" value="Send" id="submit">
+        </div>
+        <script src="./index.js"></script>
+    </body>
+</html>
